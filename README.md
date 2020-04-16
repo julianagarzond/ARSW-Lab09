@@ -42,8 +42,18 @@ Cuando un conjunto de usuarios consulta un enésimo número (superior a 1000000)
 **Preguntas**
 
 * ¿Qué es un Azure Function?
+Se utiliza para ejecutar pequeños fragmentos de código en la nube,utiliza una multitud de nuevos triggers para poder ejecutarlo. Los tipos de triggers que se utilizan son Cosmos DB, Event Hub y WebHooks.
+
+Axure Functios hace que el desarrollo sea más productivo, se puede codificar en diferentes lenguajes de programación,como C#, F#, Node,js, Java o PHP.
+
 * ¿Qué es serverless?
+Se refiere al modelo de computación que permita ejecutar durante un tiempo determinado de funciones sin necesidad de hacerse cargo de la infraestructura subyacente que se provisiona para dar el servicio, se encarga de ofrecer recursos de forma transparente, se escala de manera automática ,define una serie de restricciones referentes al procesamiento y un modelo pago por el consumo de los recursos.
+
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
+  - El runtime es una forma que ofrece Azure Functions para mayor simplicidad y flexibilidad del modelo de programación de Azure Functions en las instalaciones, este se implementa de manera local para proporcionar un servicio que sea muy similar al de la nube.
+  
+  - 
+
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
 * ¿Por qué la memoization falla o no funciona de forma correcta?
