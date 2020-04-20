@@ -51,11 +51,22 @@ Se refiere al modelo de computación que permita ejecutar durante un tiempo dete
 
 * ¿Qué es el runtime y que implica seleccionarlo al momento de crear el Function App?
   - El runtime es una forma que ofrece Azure Functions para mayor simplicidad y flexibilidad del modelo de programación de Azure Functions en las instalaciones, este se implementa de manera local para proporcionar un servicio que sea muy similar al de la nube.
-  
-  - 
 
 * ¿Por qué es necesario crear un Storage Account de la mano de un Function App?
+  - Crear un storage account es necesario para almacenar todos los objetos de datos como blobs, archivos,colas,tablas,discos entr otros, esta proporciona un espacio de nombres único para los datos de Azure Storage, los cuales se pueden acceder mediante HTTP o HTTPS.Otra carateristica importante es que con esto los datos se vuelven duraderos y altamente disponibles, seguros y escalabes de froma masiva.
 * ¿Cuáles son los tipos de planes para un Function App?, ¿En qué se diferencias?, mencione ventajas y desventajas de cada uno de ellos.
-* ¿Por qué la memoization falla o no funciona de forma correcta?
+  - Plan de consumo: Las instancias que se encuentran en ell host de Azure Functions se agregan y eliminan dinámicamente teniendo en cuenta la cantidad de eventos que entren, este plan no contiene un servidor y hace un escalamiento automatico, los recursos se cobran únicamente cuando las funciones son ejecutados, si las funciones se encuentran en una misma región se puede asignar el mismo plan de consumo  
+  El cobro se basa en la cantidad de ejecucuiones, tiempo de ejecución y la memoria que se utiliza.
+  - Plan premium: Al utilizar el plan Premium , las instancias del host se agregan y eliminan en función de la cantidad de eventos que entran, este plan permite crear instancias perpetuamente calientes para así evitar los arranques frios, conectividad Vnet, ejecución limitada 60 minutos garantizados, varios tamaños de instancias como instancias de un núcleo, dos núcleos y cuatro núcleos.
+  El cobro se basa en la cantidad de segundos centrales y la memoria utilizada en todas la instancias, al menos una de las instancias debe estar caliente.
+  - Plan dedicado: Las functio app pueden ser ejecutadas en las maquinas virtuales dedicadas que otras aplicaciones de App Service, se debería usar para cuando se tienen maquinas virtuales subutilizadas que ta estén ejecutando otras instancias y si se desea proporcionar una imagen personalizada en la que se ejecuten las funciones.
+  
+* ¿Por qué la memorization falla o no funciona de forma correcta?
 * ¿Cómo funciona el sistema de facturación de las Function App?
+Al momento de realizar el registro de Azure se crea una cuenta de facturación , desde ahíse uede administrar facturas ,pagos y costos.Además se cuenta con diferentes cuentas de facturación como:
+
+  - Microsoft Online Services Program: Esta se crea al momento de registrarse en el sitio web de Azure.
+  - Contrato Enterprise: Se crea una cuenta de facturación para un contrtato empresarial.
+  - Contrato de cliente de Microsoft: Se crea cuando una organización trabaja con un representate de Microsoft para firmamr un contrato de cliente de Microsoft.
+  
 * Informe
