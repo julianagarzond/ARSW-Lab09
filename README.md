@@ -65,8 +65,18 @@ Se refiere al modelo de computación que permita ejecutar durante un tiempo dete
 * ¿Cómo funciona el sistema de facturación de las Function App?
 Al momento de realizar el registro de Azure se crea una cuenta de facturación , desde ahíse uede administrar facturas ,pagos y costos.Además se cuenta con diferentes cuentas de facturación como:
 
-  - Microsoft Online Services Program: Esta se crea al momento de registrarse en el sitio web de Azure.
-  - Contrato Enterprise: Se crea una cuenta de facturación para un contrtato empresarial.
-  - Contrato de cliente de Microsoft: Se crea cuando una organización trabaja con un representate de Microsoft para firmamr un contrato de cliente de Microsoft.
+  - Microsoft Online Services Program: Esta se crea al momento de registrarse en el sitio web de Azure, la cuenta de facturación representa a un propietario único para una o varias suscripciones, un administrador de cuenta está autorizado para realizar varias tareas de facturación, como crear las suscripciones ,ver facturas o cambiar la facturación de las suscripciones.
+  - Contrato Enterprise: Se crea una cuenta de facturación para un contrtato empresarial,representa una inscripcion de contrato enterpirse, la factura se genera en el ambito de la cuenta de facturacion, se estructura mediante el uso de cuentas de inscripción y departamentos.
+  - Contrato de cliente de Microsoft: Se crea cuando una organización trabaja con un representate de Microsoft para firmamr un contrato de cliente de Microsoft, representa un contrato de cliente para varios productos y servicios de microsoft, la cuenta de facturación se estructura mediante el uso de perfiles de faturacion y las secciones de la factura
   
 * Informe
+- Creacion de Function App
+![ARSW1](https://user-images.githubusercontent.com/43153078/79776242-14778200-82fb-11ea-8a03-c248503e945e.PNG)
+![arsw2](https://user-images.githubusercontent.com/43153078/79776245-15101880-82fb-11ea-9246-36e45acf5a6f.PNG)
+![arsw3](https://user-images.githubusercontent.com/43153078/79776247-15a8af00-82fb-11ea-9c76-257f90d700ef.PNG)
+- Instalación Azure Function VSCode
+![arsw4](https://user-images.githubusercontent.com/43153078/79776249-15a8af00-82fb-11ea-9f95-a47945e4d701.PNG)
+- Instalación Power Shell
+![image](https://user-images.githubusercontent.com/43153078/79777186-80a6b580-82fc-11ea-8a1f-8e5b82db03c6.png)
+- Despliegue
+![arsw5](https://user-images.githubusercontent.com/43153078/79776252-16d9dc00-82fb-11ea-9c4b-a1ca70d7b092.PNG)
